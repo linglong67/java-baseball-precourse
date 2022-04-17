@@ -2,7 +2,10 @@ package baseball.dto;
 
 import camp.nextstep.edu.missionutils.Randoms;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Set;
 
 public class Game {
 
@@ -17,21 +20,8 @@ public class Game {
     }
 
     private List<Integer> answer;
-    private String returnMessage;
 
     public List<Integer> getAnswer() {
         return answer;
-    }
-
-    public void setAnswer(List<Integer> answer) {
-        this.answer = answer;
-    }
-
-    public String getReturnMessage() {
-        return returnMessage;
-    }
-
-    public void setReturnMessage(String returnMessage) {
-        this.returnMessage = returnMessage;
     }
 }
